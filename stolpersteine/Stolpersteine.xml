@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" 
+author="suspect22" 
+version="1.0.0_2020-04-29"
+icon="https://upload.wikimedia.org/wikipedia/commons/f/f4/Stolpersteinicon.png"
+description="Stolpersteine - Artist Gunter Demnig's 'stumble stones'. This version specializes in the essential tags ​​for stolpersteins."
+shortdescription="Stolpersteine - Würzburg MapChallenge"
+de.description="Stolpersteine - Steine des Künstlers Gunther Demnig gegen das Vergessen. Diese Version spezialisiert sich auf die wesentlichen Merkmale für Stolpersteine."
+de.shortdescription="Stolpersteine">
+    <item name="Stolperstein" de.name="Stolperstein" icon="https://upload.wikimedia.org/wikipedia/commons/f/f4/Stolpersteinicon.png" type="node" preset_name_label="true">
+        <link href="https://wiki.openstreetmap.org/wiki/Stolpersteine" />
+        <key key="historic" value="memorial" />
+        <key key="memorial:type" value="stolperstein" />
+        <text key="memorial:address" text="Name of the Street + Number" de.text="Adressdetails" />
+        <text key="memorial:text" text="Complete inscription of the stone" de.text="Komplette Beschriftung des Steins" />
+        <text key="name" text="Name" de.text="Name" />
+        <key key="wikipedia" text=""/>
+        <text key="date_of_birth" text="Birth Date" de.text="Geburtsdatum" />
+        <optional>
+            <text key="image" text="Image" de.text="Bild" />
+            <text key="website" text="Website" de.text="Webseite" />
+            <text key="wikipedia" text="Wikipedia" de.text="Wikipedia" />
+            <text key="memorial:ref" text="Reference" de.text="Nummerierung" />
+            <text key="description" text="Description" de.text="Beschreibung" />
+        </optional>
+    </item>
+</presets>
