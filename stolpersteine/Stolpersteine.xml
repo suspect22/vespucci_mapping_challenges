@@ -14,7 +14,7 @@ de.shortdescription="Stolpersteine">
         <text key="memorial:address" text="Name of the Street + Number" de.text="Adressdetails" />
         <text key="memorial:text" text="Complete inscription of the stone" de.text="Komplette Beschriftung des Steins" />
         <text key="name" text="Name" de.text="Name" />
-        <key key="wikipedia" text=""/>
+        <key key="wikipedia" value="de:Liste der Stolpersteine in Würzburg"/>
         <text key="date_of_birth" text="Birth Date" de.text="Geburtsdatum" />
         <optional>
             <text key="image" text="Image" de.text="Bild" />
